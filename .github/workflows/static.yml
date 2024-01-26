@@ -3,58 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Redirecionamento</title>
-    <style>
-        body {
-            background-image: url('backn.jpeg');
-            background-size: cover;
-            background-position: center;
-            background-opacity: 1.0; /* Valor entre 0 e 1 para a opacidade */
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        .container {
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.7); /* Opacidade para a caixa de texto */
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        button {
-            padding: 10px 15px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h2> <3 </h2>
-        <p>Eu n sei se vc vai gostar kkkkk mas é tudo q eu posso fazer.</p>
-
-        <button onclick="redirecionarParaPagina()">Clique Aqui</button>
-    </div>
-
-    <script>
-        function redirecionarParaPagina() {
-            window.location.href = 'fim.html';
-        }
-    </script>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página com Gif</title>
     <style>
         body {
